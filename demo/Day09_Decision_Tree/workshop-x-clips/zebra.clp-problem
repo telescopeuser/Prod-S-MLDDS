@@ -1,0 +1,30 @@
+Hi All,
+Here is a small puzzle for thought, see if you are 'intelligent' to solve the puzzle?
+This is an example of application of Rule Based AI system, which we shall look at tomorrow.
+
+-------
+puzzle:
+-------
+There are five houses, each of a different color, inhabited by men of
+different nationalities, with different pets, drinks, and cigarettes.
+
+The Englishman lives in the red house.  The Spaniard owns the dog.
+The ivory house is immediately to the left of the green house, where
+the coffee drinker lives.  The milk drinker lives in the middle house.
+The man who smokes Old Golds also keeps snails.  The Ukrainian drinks
+tea.  The Norwegian resides in the first house on the left.  The
+Chesterfields smoker lives next door to the fox owner.  The Lucky
+Strike smoker drinks orange juice.  The Japanese smokes Parliaments.
+The horse owner lives next to the Kools smoker, whose house is yellow.
+The Norwegian lives next to the blue house.
+
+Now, who drinks water?  And who owns the zebra?
+
+HOUSE | Nationality | Color  | Pet    | Drink        | Smokes       
+--------------------------------------------------------------------
+  ?   | englishman  | 
+  ?   | spaniard    | 
+  ?   | ukrainian   | 
+  ?   | norwegian   | 
+  ?   | japanese    | 
+
