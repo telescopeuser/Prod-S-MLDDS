@@ -1,6 +1,16 @@
-C: Soft margin
-Tend to change/compete teritory
+C: SVM soft margin (regularization penalty adjuster)
+The C parameter trades off misclassification of training examples against simplicity of the decision surface. A low C makes the decision surface smooth, while a high C aims at classifying all training examples correctly by giving the model freedom to select more samples as support vectors.
 
-gamma: 
+The C parameter tells the SVM optimization how much you want to avoid misclassifying each training example. For large values of C, the optimization will choose a smaller-margin hyperplane if that hyperplane does a better job of getting all the training points classified correctly. Conversely, a very small value of C will cause the optimizer to look for a larger-margin separating hyperplane, even if that hyperplane misclassifies more points.
+
+Tend to change/compete teritory
+C increase, more complex decision boundary, more training accuracy, use more support vectors, smaller-margin hyperplane
+
+
+gamma: RBF support vector influence range
+
+The gamma parameter defines how far the influence of a single training example reaches, with low values meaning ‘far’ and high values meaning ‘close’. The gamma parameters can be seen as the inverse of the radius of influence of samples selected by the model as support vectors.
+
 Tend to change individual support vector's influence range
+gamma increase, influence range reduce
 
